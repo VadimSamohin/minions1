@@ -26,11 +26,7 @@ define("work_modules/gallery", ['jquery'], function ($) {
             if($minionStore.hasOwnProperty($item.title)){
                 $count = $minionStore[$item.title];
             } else {
-<<<<<<< HEAD
                 setCounter($item.title);
-=======
-                setCount($item.title);
->>>>>>> 2fd1a47ee7af97b2e7f7d26b304f8bb672f523a5
                 $count = 0;
             }
 
@@ -75,11 +71,7 @@ define("work_modules/gallery", ['jquery'], function ($) {
     }
 
     if(!localStorage['minions']){
-<<<<<<< HEAD
         cleanStorage();
-=======
-        clear();
->>>>>>> 2fd1a47ee7af97b2e7f7d26b304f8bb672f523a5
     }
 
     // workMinions
